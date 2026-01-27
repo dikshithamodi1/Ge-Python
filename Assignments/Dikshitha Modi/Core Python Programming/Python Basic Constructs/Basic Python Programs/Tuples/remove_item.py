@@ -1,0 +1,5 @@
+tup=(1,2,3,6,5,7,9)
+lis=list(tup)
+lis.remove(9)
+tup=tuple(lis)
+print(tup)

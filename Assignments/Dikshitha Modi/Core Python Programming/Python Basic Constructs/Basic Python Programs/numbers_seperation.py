@@ -1,0 +1,5 @@
+nums=input("enter numbers:")
+lis=nums.split(",")
+print("List:",lis)
+tup_num=tuple(lis)
+print("Tuple:",tup_num)
