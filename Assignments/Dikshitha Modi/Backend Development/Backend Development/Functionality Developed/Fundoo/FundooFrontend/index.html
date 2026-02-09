@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Fundoo Notes</title>
+<style>
+  body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    min-height: 100vh;
+  }
+
+  .hidden { display: none; }
+
+  .container {
+    max-width: 420px;
+    margin: 80px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  input, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  button {
+    background: #667eea;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  button:hover { background: #5563d6; }
+
+  .link {
+    text-align: center;
+    color: #667eea;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  /* Dashboard */
+  .dashboard {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .notes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .note {
+    padding: 15px;
+    background: #f4f4f4;
+    border-radius: 8px;
+  }
+
+  .note button {
+    margin-top: 8px;
+    background: crimson;
+  }
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div class="container" id="login">
+  <h2>Login</h2>
+  <input id="loginEmail" placeholder="Email">
+  <input id="loginPassword" type="password" placeholder="Password">
+  <button onclick="login()">Login</button>
+  <div class="link" onclick="go('register')">Create account</div>
+  <div class="link" onclick="go('forgot')">Forgot password?</div>
+</div>
+
+<!-- REGISTER -->
+<div class="container hidden" id="register">
+  <h2>Register</h2>
+  <input id="regEmail" placeholder="Email">
+  <input id="regPassword" type="password" placeholder="Password">
+  <button onclick="register()">Register</button>
+  <div class="link" onclick="go('login')">Back to login</div>
+</div>
+
+<!-- FORGOT -->
+<div class="container hidden" id="forgot">
+  <h2>Forgot Password</h2>
+  <input id="forgotEmail" placeholder="Email">
+  <button onclick="forgot()">Generate Reset Token</button>
+  <div class="link" onclick="go('login')">Back to login</div>
+</div>
+
+<!-- RESET PASSWORD -->
+<div class="container hidden" id="reset">
+  <h2>Reset Password</h2>
+  <input id="resetToken" placeholder="Reset Token">
+  <input id="newPassword" type="password" placeholder="New Password">
+  <button onclick="resetPassword()">Reset Password</button>
+  <div class="link" onclick="go('login')">Back to login</div>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard hidden" id="dashboard">
+  <div class="nav">
+    <h2>My Notes</h2>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <input id="noteTitle" placeholder="Title">
+  <textarea id="noteContent" placeholder="Content"></textarea>
+  <button onclick="addNote()">Add Note</button>
+
+  <div class="notes" id="notes"></div>
+</div>
+
+<script>
+const API = "http://127.0.0.1:8000";
+const token = () => localStorage.getItem("token");
+
+function go(page){
+  document.querySelectorAll("body > div")
+    .forEach(d => d.classList.add("hidden"));
+  document.getElementById(page).classList.remove("hidden");
+}
+
+if(token()) go("dashboard");
+
+async function register(){
+  await fetch(API+"/register",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({
+      email:regEmail.value,
+      password:regPassword.value
+    })
+  });
+  alert("Registered successfully");
+  go("login");
+}
+
+async function login(){
+  const res = await fetch(API+"/login",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({
+      email:loginEmail.value,
+      password:loginPassword.value
+    })
+  });
+  const data = await res.json();
+  localStorage.setItem("token", data.access_token);
+  go("dashboard");
+  loadNotes();
+}
+
+async function forgot(){
+  const res = await fetch(API+"/forgot-password",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({ email: forgotEmail.value })
+  });
+  const data = await res.json();
+  alert("RESET TOKEN: " + data.reset_token);
+  go("reset");
+}
+
+async function resetPassword(){
+  await fetch(API+"/reset-password",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({
+      token: resetToken.value,
+      new_password: newPassword.value
+    })
+  });
+  alert("Password reset successful");
+  go("login");
+}
+
+async function addNote(){
+  await fetch(API+"/notes",{
+    method:"POST",
+    headers:{
+      "Content-Type":"application/json",
+      "token": token()
+    },
+    body:JSON.stringify({
+      title:noteTitle.value,
+      content:noteContent.value
+    })
+  });
+  loadNotes();
+}
+
+async function loadNotes(){
+  const res = await fetch(API+"/notes",{
+    headers:{ "token": token() }
+  });
+  const notes = await res.json();
+  notesDiv.innerHTML="";
+  notes.forEach(n=>{
+    notesDiv.innerHTML += `
+      <div class="note">
+        <h4>${n.title}</h4>
+        <p>${n.content}</p>
+        <button onclick="deleteNote(${n.id})">Delete</button>
+      </div>
+    `;
+  });
+}
+
+async function deleteNote(id){
+  await fetch(API+"/notes/"+id,{
+    method:"DELETE",
+    headers:{ "token": token() }
+  });
+  loadNotes();
+}
+
+function logout(){
+  localStorage.removeItem("token");
+  go("login");
+}
+</script>
+
+</body>
+</html>

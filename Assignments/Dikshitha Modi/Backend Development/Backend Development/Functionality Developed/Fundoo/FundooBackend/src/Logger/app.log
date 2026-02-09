@@ -1,0 +1,684 @@
+2026-02-09 10:30:57,046 - INFO - fundoo_backend - Starting application and creating tables if not exist
+2026-02-09 10:31:36,091 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 10:31:36,610 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 10:32:25,313 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 10:32:25,344 - INFO - fundoo_backend - Reset token generated for user 3
+2026-02-09 10:32:51,115 - INFO - fundoo_backend - Reset password attempt
+2026-02-09 10:32:51,467 - INFO - fundoo_backend - Password reset successful for user 3
+2026-02-09 10:46:19,740 - INFO - fundoo_backend - Validating token
+2026-02-09 10:46:19,744 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:48:41,768 - INFO - fundoo_backend - Validating token
+2026-02-09 10:48:41,773 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:48:55,086 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 10:48:55,524 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 10:48:55,572 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 10:48:55,612 - INFO - fundoo_backend - Validating token
+2026-02-09 10:48:55,621 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:48:56,309 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 10:48:56,334 - INFO - fundoo_backend - Validating token
+2026-02-09 10:48:56,341 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:49:06,979 - INFO - fundoo_backend - Validating token
+2026-02-09 10:49:06,987 - INFO - fundoo_backend - User 3 creating note: intro
+2026-02-09 10:49:07,011 - INFO - fundoo_backend - Note created with ID 9
+2026-02-09 10:49:07,032 - INFO - fundoo_backend - Validating token
+2026-02-09 10:49:07,041 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:49:11,680 - INFO - fundoo_backend - Validating token
+2026-02-09 10:49:11,691 - INFO - fundoo_backend - User 3 deleting note 9
+2026-02-09 10:49:11,704 - INFO - fundoo_backend - Note deleted: 9
+2026-02-09 10:49:11,729 - INFO - fundoo_backend - Validating token
+2026-02-09 10:49:11,737 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:49:21,305 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 10:49:21,320 - INFO - fundoo_backend - Reset token generated for user 3
+2026-02-09 10:49:38,865 - INFO - fundoo_backend - Reset password attempt
+2026-02-09 10:49:38,872 - ERROR - fundoo_backend - Invalid reset token
+2026-02-09 10:49:52,598 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 10:49:53,009 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 10:49:53,041 - INFO - fundoo_backend - Validating token
+2026-02-09 10:49:53,049 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:50:30,865 - INFO - fundoo_backend - Validating token
+2026-02-09 10:50:30,871 - INFO - fundoo_backend - User 3 creating note: ffddd
+2026-02-09 10:50:30,885 - INFO - fundoo_backend - Note created with ID 10
+2026-02-09 10:50:30,911 - INFO - fundoo_backend - Validating token
+2026-02-09 10:50:30,920 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:50:41,465 - INFO - fundoo_backend - Validating token
+2026-02-09 10:50:41,474 - INFO - fundoo_backend - User 3 deleting note 10
+2026-02-09 10:50:41,484 - INFO - fundoo_backend - Note deleted: 10
+2026-02-09 10:50:41,506 - INFO - fundoo_backend - Validating token
+2026-02-09 10:50:41,513 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:52:24,721 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:24,732 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:52:36,119 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:36,128 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:52:38,873 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:40,138 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:42,502 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:43,636 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:43,987 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,120 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,486 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,544 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,590 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,621 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,653 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,683 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,713 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,748 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,783 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,825 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,874 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,919 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:44,991 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,043 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,144 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,201 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,241 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,293 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,333 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,386 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,442 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,495 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,548 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,615 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,655 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,734 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,786 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,860 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,922 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:45,990 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,057 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,117 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,186 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,251 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,322 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,383 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,432 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,502 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,553 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,619 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,684 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,755 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,831 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,883 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:46,938 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,020 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,098 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,152 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,203 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,286 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,339 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,405 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,466 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,522 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,644 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,654 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,738 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,812 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,869 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,931 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:47,990 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,060 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,134 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,189 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,270 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,342 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,399 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,451 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,522 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,580 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,632 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,685 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,752 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,811 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,866 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:48,986 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,030 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,101 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,169 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,236 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,341 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,397 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,479 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,551 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,619 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,681 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,758 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,818 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,895 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:49,960 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,021 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,088 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,150 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,217 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,330 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,418 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,482 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,541 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,713 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,775 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,843 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:50,941 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,006 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,064 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,107 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,176 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,232 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,290 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,356 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,440 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,495 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,605 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,674 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,719 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,778 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,830 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,905 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:51,952 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,021 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,067 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,135 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,199 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,280 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,331 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,386 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,470 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,536 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,624 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,677 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,738 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,814 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:52,874 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,035 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,112 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,169 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,231 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,296 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,355 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,430 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,486 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,568 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,627 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,725 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,777 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:53,832 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:54,979 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,023 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,062 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,148 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,171 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,210 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,252 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,284 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,335 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,363 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,417 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,469 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,510 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,571 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,621 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,680 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,739 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,788 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,849 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:55,944 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,013 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,162 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,226 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,286 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,318 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,384 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,465 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,528 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,587 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,630 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,691 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,771 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,834 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:56,945 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:57,015 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:57,051 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:57,110 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:57,232 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:57,290 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:57,346 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:58,743 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:58,790 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:58,840 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:58,873 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:58,913 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:58,949 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:58,993 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,031 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,082 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,121 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,161 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,206 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,299 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,373 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,451 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,487 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,552 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,592 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,645 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,698 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,744 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,802 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,871 - INFO - fundoo_backend - Validating token
+2026-02-09 10:52:59,935 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,068 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,138 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,220 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,285 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,345 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,430 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,546 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,654 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,720 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,811 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,905 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:00,971 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,061 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,114 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,206 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,276 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,497 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,585 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,723 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,769 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,875 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:01,922 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,046 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,115 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,157 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,221 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,364 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,424 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,566 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,629 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,732 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,795 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,895 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:02,947 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,003 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,128 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,212 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,346 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,408 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,489 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,555 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,646 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,697 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,799 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,843 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,918 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:03,985 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,039 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,099 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,167 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,238 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,404 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,455 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,519 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,745 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,838 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:04,920 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,005 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,062 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,229 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,301 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,385 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,447 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,493 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,547 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,611 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,681 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,745 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,818 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,865 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,922 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:05,971 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,026 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,120 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,166 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,222 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,288 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,410 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,464 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,520 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,586 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,653 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,716 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,785 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,847 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,889 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:06,977 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:07,038 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:07,090 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:07,147 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:07,214 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:15,048 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:15,523 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:17,971 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:18,468 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:19,924 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:21,530 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:21,671 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:21,919 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,163 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,292 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,352 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,403 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,442 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,477 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,521 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,563 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,616 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,670 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,734 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,783 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,856 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,915 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:22,979 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,040 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,097 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,159 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,196 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,261 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,313 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,366 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,466 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,550 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,617 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,688 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,755 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,818 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,871 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:23,929 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,032 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,120 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,189 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,254 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,338 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,418 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,461 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,586 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,732 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,816 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:24,893 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,205 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,346 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,424 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,479 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,558 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,663 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,729 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,886 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:25,987 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,064 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,166 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,239 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,301 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,365 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,431 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,500 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,667 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,746 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,819 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,896 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:26,948 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,025 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,069 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,154 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,216 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,302 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,367 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,438 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,502 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,563 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,639 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,712 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,848 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:27,904 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,008 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,114 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,172 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,261 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,315 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,419 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,619 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,677 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,729 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,822 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:28,990 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,055 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,166 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,255 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,318 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,452 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,500 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,564 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,655 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,722 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,785 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,917 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:29,968 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,053 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,124 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,198 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,278 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,338 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,422 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,497 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,547 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,621 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,686 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,754 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,816 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,927 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:30,992 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,038 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,101 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,217 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,281 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,344 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,410 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,461 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,546 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,679 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,738 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,804 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:31,950 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,101 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,160 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,260 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,370 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,429 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,496 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,545 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,626 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,678 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,745 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,805 - INFO - fundoo_backend - Validating token
+2026-02-09 10:53:32,864 - INFO - fundoo_backend - Validating token
+2026-02-09 10:57:00,657 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 10:57:01,079 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 10:57:01,094 - INFO - fundoo_backend - Validating token
+2026-02-09 10:57:01,106 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:57:17,831 - INFO - fundoo_backend - Validating token
+2026-02-09 10:57:17,837 - INFO - fundoo_backend - User 3 creating note: ffffffffff
+2026-02-09 10:57:17,848 - INFO - fundoo_backend - Note created with ID 11
+2026-02-09 10:57:17,876 - INFO - fundoo_backend - Validating token
+2026-02-09 10:57:17,886 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:57:25,317 - INFO - fundoo_backend - Validating token
+2026-02-09 10:57:25,330 - INFO - fundoo_backend - User 3 deleting note 11
+2026-02-09 10:57:25,344 - INFO - fundoo_backend - Note deleted: 11
+2026-02-09 10:57:25,367 - INFO - fundoo_backend - Validating token
+2026-02-09 10:57:25,374 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 10:57:40,840 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 10:57:40,856 - INFO - fundoo_backend - Reset token generated for user 3
+2026-02-09 11:17:03,161 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:17:03,553 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:17:03,615 - INFO - fundoo_backend - Validating token
+2026-02-09 11:17:03,627 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:17:09,942 - INFO - fundoo_backend - Validating token
+2026-02-09 11:17:09,949 - INFO - fundoo_backend - User 3 creating note: ddd
+2026-02-09 11:17:09,961 - INFO - fundoo_backend - Note created with ID 12
+2026-02-09 11:17:09,982 - INFO - fundoo_backend - Validating token
+2026-02-09 11:17:09,988 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:17:13,428 - INFO - fundoo_backend - Validating token
+2026-02-09 11:17:13,437 - INFO - fundoo_backend - User 3 deleting note 12
+2026-02-09 11:17:13,450 - INFO - fundoo_backend - Note deleted: 12
+2026-02-09 11:17:13,468 - INFO - fundoo_backend - Validating token
+2026-02-09 11:17:13,477 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:17:20,529 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 11:17:20,545 - INFO - fundoo_backend - Reset token generated for user 3
+2026-02-09 11:17:27,885 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 11:17:27,897 - INFO - fundoo_backend - Reset token generated for user 3
+2026-02-09 11:19:32,500 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 11:19:32,508 - INFO - fundoo_backend - Reset token generated for user 3
+2026-02-09 11:19:52,318 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:19:52,687 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:19:52,709 - INFO - fundoo_backend - Validating token
+2026-02-09 11:19:52,714 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:29,724 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:29,994 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:30,011 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:30,016 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:30,172 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:30,353 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:30,575 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:30,670 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:30,699 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:30,706 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:30,886 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:30,893 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:30,942 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:30,948 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:31,115 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:31,259 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:31,271 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:31,274 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:31,321 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:31,329 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:31,332 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:31,342 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:31,394 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:31,405 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:31,407 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:31,568 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:31,613 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:31,641 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:31,646 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:31,862 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:32,018 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:32,025 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:32,027 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:32,061 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:32,175 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:32,185 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:32,188 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:32,322 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:32,330 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:32,332 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:36,000 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:36,353 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:36,366 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:36,369 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:36,449 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:36,848 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:36,992 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:37,016 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:37,022 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:37,062 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:37,374 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:37,386 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:37,389 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:37,483 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:37,520 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:37,527 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:38,288 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:38,291 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:45,372 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:45,575 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:24:45,886 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:45,893 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:45,895 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:24:45,961 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:24:45,990 - INFO - fundoo_backend - Validating token
+2026-02-09 11:24:45,995 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:33,040 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:33,048 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:40,116 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:40,121 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:40,387 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:40,395 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:45,815 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:26:46,237 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:26:46,260 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:46,265 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:46,515 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:26:46,770 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:26:46,981 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:26:46,992 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:46,996 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:47,061 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:26:47,146 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:26:47,154 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:47,156 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:47,377 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:26:47,397 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:26:47,419 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:47,427 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:47,735 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:26:47,844 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:26:47,852 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:47,854 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:47,959 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:26:48,150 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:26:48,189 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:48,195 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:26:48,375 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:26:48,387 - INFO - fundoo_backend - Validating token
+2026-02-09 11:26:48,389 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:09,713 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:09,716 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:15,605 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:27:16,151 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:27:16,170 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:16,177 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:16,208 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:27:16,388 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:27:16,587 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:27:16,652 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:27:16,661 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:16,663 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:16,764 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:27:16,774 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:16,776 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:16,803 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:27:16,918 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:27:16,934 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:16,939 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:17,011 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:27:17,171 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:27:17,181 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:17,183 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:17,214 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:27:17,437 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:27:17,461 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:17,467 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:27:17,674 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:27:17,724 - INFO - fundoo_backend - Validating token
+2026-02-09 11:27:17,732 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:28:41,453 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:28:41,742 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:28:41,766 - INFO - fundoo_backend - Validating token
+2026-02-09 11:28:41,772 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:29:19,462 - INFO - fundoo_backend - Login attempt: dikshitha@gmail.com
+2026-02-09 11:29:19,769 - INFO - fundoo_backend - Login successful: dikshitha@gmail.com
+2026-02-09 11:29:19,786 - INFO - fundoo_backend - Validating token
+2026-02-09 11:29:19,790 - INFO - fundoo_backend - User 3 fetching notes
+2026-02-09 11:32:08,655 - INFO - fundoo_backend - Starting application and creating tables if not exist
+2026-02-09 11:32:19,748 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 11:32:19,820 - INFO - fundoo_backend - Reset token generated for user 3
+2026-02-09 11:32:25,592 - INFO - fundoo_backend - Forgot password request: dikshitha@gmail.com
+2026-02-09 11:32:25,606 - INFO - fundoo_backend - Reset token generated for user 3
